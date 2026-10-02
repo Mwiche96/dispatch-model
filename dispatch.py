@@ -22,7 +22,7 @@ n.add(
 )
 
 n.add(
-    "Generator"
+    "Generator",
     "solar",
     bus="gen_bus",
     p_nom=200,
