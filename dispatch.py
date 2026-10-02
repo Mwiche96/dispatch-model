@@ -20,3 +20,6 @@ n.add(
 	p_nom=600,
 	marginal_cost=3,
 )
+
+n.optimize()
+
