@@ -26,7 +26,7 @@ n.add(
     "solar",
     bus="gen_bus",
     p_nom=200,
-    p_max_pu=0.5
+    p_max_pu=0.5,
     marginal_cost=0,
 )
 
