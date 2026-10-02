@@ -2,7 +2,7 @@ import pypsa
 
 n = pypsa.Network()
 
-n.add("Bus" "gen_bus", carrier="transmission")
+n.add("Bus", "gen_bus", carrier="transmission")
 n.add("Bus", "load bus")
 n.add("Load", "load_1", bus="load_bus", p_set=500)
 n.add(
